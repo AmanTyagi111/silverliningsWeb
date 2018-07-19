@@ -1,0 +1,61 @@
+.tablink {
+    background-color: white;
+    color: #b1b1b1;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin: auto;
+    font-weight: bold;
+}
+.tablink {
+    background-color: white;
+    color: #b1b1b1;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.tablink.selected {
+     background-color: white;
+    color: #337AB7;
+    font-weight: bolder;
+
+}
+
+
+
+.tablink:hover {
+    background-color: white;
+    color: #337AB7;
+    font-weight: bolder;
+}
+
+/* Style the tab content */
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 50px;
+    text-align: left;
+}
+.tabcontent.selected {
+    display: block;
+}
+@media screen and (max-width: 767px){
+	.tabcontent { padding: 0px;}
+}
+.tabImage{
+display: none;  
+}
+.tabImage.selected{
+display: block;  
+}
+#Jyoti {background-color:white;}
+#Fusion {background-color:white;}
+#Diversity {background-color:white;}
+#Shikshaa {background-color:white;}

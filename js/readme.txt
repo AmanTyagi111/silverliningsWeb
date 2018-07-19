@@ -1,0 +1,1 @@
+All js files to go in this directory

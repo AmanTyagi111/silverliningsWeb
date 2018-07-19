@@ -1,0 +1,56 @@
+.carousel-caption {
+ 	bottom:100%;
+    padding-bottom: 40px;
+    text-shadow: none;
+
+}
+.carousel-right-arrow:before{
+}
+.carousel-left-arrow:before {
+  
+}
+.carousel-control .carousel-left-arrow,
+.carousel-control .carousel-right-arrow{
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  margin-top: -10px;
+}
+.carousel-control .carousel-left-arrow{
+  left: 50%;
+  margin-left: -10px;
+}
+.carousel-control .carousel-right-arrow {
+  right: 50%;
+  margin-right: -10px;
+}
+.carousel-left-arrow{
+   background-size: 100% 100%;
+    width: 20px;
+    height: 20px;
+   background-image: url("../assets/icon/leftarrow.png");
+}
+.carousel-right-arrow{
+   background-size: 100% 100%;
+    width: 20px;
+    height: 20px;
+   background-image: url("../assets/icon/rightarrow.png");
+}
+@media screen and (min-width: 768px) {
+  .carousel-control .carousel-right-arrow,
+  .carousel-control .carousel-left-arrow
+  {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 30px;
+  }
+   .carousel-control .carousel-left-arrow{
+    margin-left: -10px;
+  }
+  .carousel-control .carousel-right-arrow{
+    margin-right: -10px;
+  }
+}
+
